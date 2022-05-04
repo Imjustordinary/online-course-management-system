@@ -1,0 +1,123 @@
+.purchased-course-container{
+    display: flex;
+}
+
+.left-purchsed-c{
+    width: 25%;
+    height: 100vh;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgb(32 39 45 / 15%);
+    border-right: 1px solid #d7dadb;
+}
+
+.right-title-box{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom:20px ;
+}
+
+.left-title{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+}
+
+.left-image-box{
+    width: 100%;
+    padding-top: 70px;
+}
+
+.left-image{
+    width: inherit;
+}
+
+
+
+.right-purchsed-c{
+    width: 75%;
+    padding: 20px;
+    padding-top: 90px;
+}
+
+.right-title{
+    font-size: 30px;
+    
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.title-download-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .purchased-course-display{
+
+} */
+
+
+
+/* CSS */
+.right-purchsed-c a {
+    -webkit-appearance: none;
+    margin-left: 10px !important;
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    text-decoration: none !important;
+    box-shadow: rgb(27 31 35 / 4%) 0 1px 0, rgb(255 255 255 / 25%) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E !important;
+    cursor: pointer !important;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 16px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none !important;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+
+.right-purchsed-c a:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.right-purchsed-c a:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.right-purchsed-c a:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.right-purchsed-c a:focus {
+  outline: 1px transparent;
+}
+
+.right-purchsed-c a:before {
+  display: none;
+}
+
+.right-purchsed-c a:-webkit-details-marker {
+  display: none;
+}

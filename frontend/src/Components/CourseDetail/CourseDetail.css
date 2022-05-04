@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.each-detail-container{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.each-detail-course-img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.guaran{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 23px;
+}
+
+.preview-title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.background-delay{
+    opacity: 0.6;     
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;    
+}
+
+.each-detail{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+
+}
+
+.each-detail-title{
+    font-size: 49px;
+}
+
+.each-detail-description{
+    font-size: 34px;
+    max-width: 750px;
+    margin: 10px 0;
+}
+
+.each-detail-enroll-button{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 21px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.each-detail-enroll-button:hover{
+color: black;
+background-color: white;
+}
+
+.but-hov:hover{
+    color: black;
+background-color: white;
+}
+
+.disable{
+    color: gray;
+    cursor: default;
+}
+
+.disable:hover{
+    color: gray;
+    background-color: #000;
+}
+
+.each-detail-info{
+    margin: auto;
+    text-align: justify;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.span{
+    font-size: 23px;
+}
+
+.info-box{
+    width: 40%;
+    border: 1px solid gray;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+
+.each-instructor{
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #f7f7f7;
+}
+.instructor-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.instructor-title{
+    margin: 30px 0;
+    width: 30%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.instructor-data{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.instructor-profile{
+    text-align: center;
+    width: 30%;
+}
+
+.instructor-img{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+.instructor-personal-data{
+    width: 70%;
+    font-size: 17px;
+}
+
+.instructor-name{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.preview-video{
+    margin: auto;
+}
+
+.two-entroll-but{
+display: flex;
+
+}
+
+.shop-cart{
+    border: 0;
+    background-color: #000;
+    margin-left: 20px;
+}
+
+
+
+.enroll-title{
+    padding-left: 5px;
+}

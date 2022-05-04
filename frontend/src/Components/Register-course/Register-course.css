@@ -1,0 +1,24 @@
+.book-input-form{
+    display: flex;
+}
+
+.book-title{
+    margin-right: 10px;
+}
+
+.add-book{
+    color: #2196f3;
+    cursor: pointer;
+}
+
+.add-book:hover{
+    color: #15609b;;
+}
+
+.description-input{
+    display: flex;
+}
+
+.des-title{
+    padding-right: 10px;
+}

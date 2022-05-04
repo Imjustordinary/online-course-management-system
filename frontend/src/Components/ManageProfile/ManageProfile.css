@@ -1,0 +1,115 @@
+.manage-profilebox{
+    position: fixed;
+    z-index: 50;
+    padding: 20px;
+    width: 400px;
+    border-radius: 15px;
+    left: 50%;
+    top: 50%;
+    margin-top: -200px;
+    margin-left: -175px;
+    background-color: white;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+}
+
+.manage-profile-title{
+    font-size: larger;
+    text-align: center;
+}
+
+.manage-image{
+    text-align: center;
+    margin: 15px;
+}
+
+.black-sheed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.418);
+    z-index: 20;
+}
+
+.profile-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.each-larger{
+    font-size: larger;
+    font-weight: bold;
+    
+margin: 15px 0;
+}
+
+.purchased-data:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+
+.des-input{
+    display: flex;
+}
+
+.course-profile-img{
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.each-detail-pur-pro{
+    display: flex;
+    align-items: center;
+}
+
+.each-detail-pur-info{
+    display: flex;
+    flex-flow: column;
+    margin: 0 15px;
+}
+
+.each-detail-pur-name{
+    font-size: larger;
+}
+
+.each-detail-pur-pro-img{
+    height: 70px;
+    width: 100px;
+    margin: 10px 0;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.detail-pur-pro{
+    max-height: 185px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-right: -10px;
+    background-color: #8080801a;
+    border-radius: 3px;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+div::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(100,100,100,0.4); 
+}
+

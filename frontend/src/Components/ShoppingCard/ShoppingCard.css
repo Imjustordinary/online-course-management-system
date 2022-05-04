@@ -1,0 +1,114 @@
+.card-each-img{
+    width: 100px;
+}
+
+
+.cart-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.empty-cart{
+    padding: 30px;
+    font-size: xxx-large;
+}
+
+.deli-fees{
+    font-size: 15px;
+}
+
+.cart-title{margin: 20px 0;
+font-size: 45px;
+}
+
+
+.cart-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.added-items{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+
+.total-items-count{
+    font-size: x-large;
+    margin: 10px 0;
+}
+
+
+.added-items-box{
+    border: 1px solid #8080805e;
+    width: 95%;
+    padding: 10px;
+}
+
+
+.each-added-item{
+    display: flex;
+}
+
+.item-img{
+    width: 90%;
+}
+
+.item-img-box{
+    width: 30%;
+}
+
+.item-info{
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+}
+
+.item-name{    
+    font-weight: bold;
+    font-size: larger;
+}
+
+.item-price{
+    font-size: large;
+}
+
+.total-price-info{
+    width: 40%;
+}
+
+
+.total-price{
+    font-size: xxx-large;
+}
+
+.check-out-but{
+    margin: 10px 0;
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #2196f3;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item-remove{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+
+.item-remove:hover{
+    color: rgba(255, 0, 0, 0.726);
+}

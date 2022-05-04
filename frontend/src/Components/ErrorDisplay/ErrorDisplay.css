@@ -1,0 +1,38 @@
+.error-box{
+    height: 200px;
+    width: 500px;
+    margin-top: -100px;
+    margin-left: -250px;
+    text-align: center;
+    font-size: larger;
+    padding: 0;
+}
+
+.error-message{
+    width: 100%;
+    height: 30%;
+    /* height: 100%; */
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-back{
+    background-color: #e10c0ccc;
+}
+
+.error-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    font-weight: bold;
+}
+
+.black-sheed{
+    background-color: rgba(0, 0, 0, 0.418);
+}

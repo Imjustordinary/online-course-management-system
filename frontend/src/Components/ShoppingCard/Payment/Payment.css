@@ -1,0 +1,312 @@
+.black-ground{
+    position: fixed;
+    height: 100vh;
+    background-color: #0000008f;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #0000004d;
+    font-size: 14px;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-size: 14px;
+    color: #0000004d;
+  }
+  
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 14px;
+    color: #0000004d;
+  }
+  
+  .no-disable {
+    background: #dddddd;
+    cursor: default;
+  }
+  
+  .no-disable:hover {
+    background: #dddddd;
+  }
+  
+  .InputElement {
+    line-height: 21px;
+    height: 27px;
+  }
+  
+  .title-cart {
+    font-size: x-large;
+    align-self: end;
+    margin-left: 100px;
+    margin-top: 35px;
+  }
+  
+  .top {
+    border-bottom: 1px solid #ddd;
+  
+    padding: 8px;
+  }
+  
+  
+  
+  .one-row:hover td {
+    background-color: #ddd;
+  }
+  
+  .one-row td {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    max-height: 170px;
+  }
+  
+  .small-price {
+    margin-bottom: 55px;
+  }
+  
+  .remove {
+    margin-bottom: 33px;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1f4287;
+    color: white;
+  }
+  
+  .Payment {
+    z-index: 100;
+    border-radius: 10px;
+    font-family: "Bree Serif", serif;
+    width: 540px;
+    position: fixed;
+    background-color: white;
+  }
+  
+  .containerz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -2;
+    transition: 0.5s;
+  }
+  
+  #radio {
+    cursor: pointer;
+  }
+  
+  .paypal-button {
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .paypal-button:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  }
+  
+  .getStartedContainer {
+    z-index: 50;
+  }
+  
+  @keyframes myintroContainer {
+    from {
+      z-index: -2;
+    }
+    to {
+      z-index: 50;
+    }
+  }
+  
+  .getEndedContainer {
+    z-index: -2;
+  }
+  
+  @keyframes myintroContainerEnd {
+    from {
+      z-index: 50;
+    }
+    to {
+      z-index: -2;
+    }
+  }
+  
+  .getStarted {
+    transform: translateY(0);
+    animation-name: myintroGet;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes myintroGet {
+    from {
+      transform: translateY(-600px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .getEnded {
+    animation-name: myintroEnd;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes myintroEnd {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-600px);
+    }
+  }
+  
+  .credit-choice {
+    justify-content: space-between;
+  }
+  
+  .credit {
+    background-color: #f9fafd;
+    max-height: 500px;
+    overflow: visible;
+    padding: 16px;
+    transition: 0.5s;
+  }
+  
+  .credit p {
+    margin-bottom: 8px;
+  }
+  
+  .credit input {
+    width: 500px;
+    padding: 8px 32px 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #00000021;
+  }
+  
+  .credit input:focus{
+    outline:none;
+  
+  }
+  
+  
+  
+  
+  .credit td input {
+    width: 240px;
+  }
+  
+  .each-radio {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+  }
+  
+  .paypal {
+    background-color: #f9fafd;
+    max-height: 500px;
+    overflow: visible;
+    padding: 16px;
+    transition: 0.5s;
+  }
+  
+  .paypal select {
+    border: 1px solid #00000021;
+  }
+  
+  .paypal p {
+    margin-bottom: 8px;
+  }
+  
+  .paypal select {
+    width: 500px;
+    padding: 8px 32px 8px 16px;
+    border-radius: 5px;
+  }
+  
+  .noshow-paypal {
+    padding: 0 16px;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  .noshow-credit {
+    padding: 0 16px;
+    max-height: 0;
+    overflow: hidden;
+  }
+  
+  .below {
+    animation-name: letsee;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  @keyframes letsee {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .paypal button {
+    border: 0;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
+  }
+  
+  .cart-fieldset {
+    border: 1px solid #0000000f;
+    width: 270px;
+    height: 300px;
+    position: fixed;
+    top: 180px;
+    right: 100px;
+    border: 0;
+    background-color: #eeeeee;
+    font-size: larger;
+    text-align: center;
+  }
+  
+  .small-table td {
+    text-align: left;
+    max-height: 30px;
+  }
+  
+  .table-cart {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+  
+    overflow: auto;
+  }
+  
+  .table-cart td {
+    padding: 5px 0;
+  }
+  

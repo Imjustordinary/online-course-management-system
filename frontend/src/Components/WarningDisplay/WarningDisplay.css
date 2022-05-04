@@ -1,0 +1,27 @@
+.yellow-back{
+    background-color: #ffeb3b;
+}
+
+.warning-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+}
+
+.warning-buts{
+    display: flex;
+}
+
+.deactive{
+    background-color: #ED4F32;
+    margin: 0 10px;
+    font-size: initial;
+}
+
+.cancel{
+    background-color: #627d98;
+    margin: 0 10px;
+    font-size: initial;
+}

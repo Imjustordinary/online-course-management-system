@@ -1,0 +1,22 @@
+.color{
+    background-color: #f7f7f7;
+}
+
+.full-body{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.footer{
+    height: 55px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}

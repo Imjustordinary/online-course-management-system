@@ -1,0 +1,98 @@
+
+
+.container-heading-one{
+    height: 100vh;
+    width: 22%;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgb(32 39 45 / 15%);
+    border-right: 1px solid #d7dadb;
+}
+
+.container-heading-two{
+    height: 100%;
+    width:70%;
+    
+}
+
+.middle{
+   margin: 5px 10px;
+}
+
+.delete-link{
+    margin: 0 10px;
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: x-small;
+    color: #000000b5;
+    cursor: pointer;
+}
+
+.delete-link:hover{
+    color: #000000;
+}
+
+.sign-up-link{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.profile-name-manage{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    padding: 10px 0;
+    border-bottom: 1px solid #d7dadb;
+}
+
+.logo-profile{
+    margin: 0 10px;
+}
+
+.logo-account{
+    font-size: large;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navi-box{
+   
+}
+
+.each-navi{
+    height: 45px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-bottom: 1px;
+    cursor: pointer;
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+    border-left: 3px solid transparent;  
+}
+
+.each-navi:hover{
+    background-color: #e6e6e6;
+}
+
+.active-navi{
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 3px;
+}
+
+.icon-spacing{
+    padding: 0 10px;
+    
+}
+
+.text-normal{
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+.select-box{
+    width: 1000px;
+    margin: auto;
+}
+
+.dropbox-cate{
+    width: 200px;
+    margin: 15px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.empty-course{
+    padding: 30px;
+    font-size: xxx-large;
+
+}

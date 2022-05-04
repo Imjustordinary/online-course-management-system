@@ -1,0 +1,152 @@
+.content-body{
+    display: flex;
+    width: 100%;
+}
+
+.detail-column{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    padding: 15px;
+}
+
+.detail-body{
+    width: 75%;
+    display: flex;
+    flex-flow: column;
+    margin: 15px;
+    margin-top: 25px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 10px;
+}
+
+.edit-but{
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.course-img-sta{
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.detail-title{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+
+.detail-name{
+    width: 45%;
+}
+
+.detail-date{
+    width: 30%;
+    
+}
+
+.detail-creator{
+    width: 40%
+}
+
+.detail-data{
+    display: flex;
+    align-items: center;
+}
+
+.resent-body{
+    width: 40%;
+    margin-top: 25px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+
+.edit-teacher{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: blue;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.teacher-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.teacher-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.teacher-img-box{
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.status-staff{
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.inactive{
+    background-color: gray;
+}
+
+.admin-teacher{
+    margin-left: 5px;
+}
+
+.staff-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.creation{
+    font-size: 15px;
+}
+
+.resent-data{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.resent-title{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}

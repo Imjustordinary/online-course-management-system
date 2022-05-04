@@ -1,0 +1,23 @@
+.to-price-deli{
+    font-size: large;
+}
+
+.subto-box-deli{
+    width: 85%;
+    border-bottom: 1px solid gainsboro;
+}
+
+.delete-deli{
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 5px;
+    display: block;
+}
+
+.delete-deli:hover{
+    color: #f44336;
+}

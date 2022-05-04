@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.course-description{
+    padding: 20px;
+    text-align: justify;
+}
+
+.course-display-box{
+    height: 170px;
+    overflow: hidden;
+}
+
+.border-box-two{
+    width: 300px;
+    margin: 15px;
+    overflow: hidden;
+    max-height: 400px;
+    min-height: 352px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 10px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.border-box-two:hover{
+    border: 1px solid gray;
+}
+
+.course-price-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-teacher-info{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}
+
+.price-info{
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+}
+
+.course-description-info{
+    min-height: 35px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.course-title-info{
+    font-size: x-large;
+}
+
+.course-teacher-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.course-image-display{
+    width: 100%;
+    height: 100%;
+}
+
+.center-title{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 10px;
+
+}
+
+.gallery-two{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.no-item{
+    display: flex;
+    font-size: xx-large;
+    margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media screen and (max-width:599px) {
+   
+    .gallery-two{
+        width: 100%;
+    }
+    .border-box-two{
+        max-width: 100%;
+    }
+  }
